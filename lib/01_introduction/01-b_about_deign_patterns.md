@@ -23,5 +23,5 @@ Darüber hinaus können alle Muster nach ihrer Absicht oder ihrem Zweck kategori
 
 - ### Behavioral Patterns / Verhaltensmuster 
   - sorgen für eine effektive Kommunikation und die Zuweisung von Verantwortlichkeiten zwischen Objekten.
-
+---
 Darüber hinaus kamen mit der Zeit noch weitere Muster hinzu, welche sich keiner der genannten Kategorien zuordnen lassen, wie z.B. Muster für objektrelationale Abbildungen oder Nachrichtenübermittlung (Messaging Patterns). 

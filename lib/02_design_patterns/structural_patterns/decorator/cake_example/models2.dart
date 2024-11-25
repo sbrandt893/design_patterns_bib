@@ -33,7 +33,7 @@ class ChocolateGlazeDecorator extends CakeDecorator {
   String getDescription() => cake.getDescription();
 
   @override
-  double getPrice() => cake.getPrice() + 3.0;
+  double getPrice() => cake.getPrice() + 0.05;
 
   @override
   Map<String, int> getDecorations() {
@@ -50,7 +50,7 @@ class FruitDecorator extends CakeDecorator {
   String getDescription() => cake.getDescription();
 
   @override
-  double getPrice() => cake.getPrice() + 4.0;
+  double getPrice() => cake.getPrice() + 0.10;
 
   @override
   Map<String, int> getDecorations() {
