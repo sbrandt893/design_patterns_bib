@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_print
 
-import 'package:design_patterns_bib/02_design_patterns/structural_patterns/decorator/cake_example/models2.dart';
+import 'package:design_patterns_bib/02_design_patterns/structural_patterns/decorator/dart_example_cake_decorator/models_extended.dart';
 
 void main() {
   // Initialisierung der Basistorte

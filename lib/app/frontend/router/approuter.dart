@@ -17,7 +17,7 @@ class Approuter {
       case 'settings':
         return MaterialPageRoute(builder: (_) => const SettingsView());
       case 'cakeDecoratorView':
-        return MaterialPageRoute(builder: (_) => CakeDecoratorView());
+        return MaterialPageRoute(builder: (_) => const CakeDecoratorView());
       default:
         return MaterialPageRoute(builder: (context) => const HomeView());
     }

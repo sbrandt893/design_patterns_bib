@@ -9,7 +9,7 @@ class HomeView extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home'),
+        title: const Text('Design Patterns Bib'),
         actions: [
           IconButton(
             icon: const Icon(Icons.settings),
