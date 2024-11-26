@@ -109,13 +109,17 @@ class CakeDecoratorViewState extends State<CakeDecoratorView> with SingleTickerP
               child: DragTarget<DecorationItem>(
                 builder: (context, candidateData, rejectedData) {
                   return Container(
-                    color: Colors.grey[300],
+                    decoration: const BoxDecoration(
+                      border: Border(bottom: BorderSide(color: Colors.black, width: 3)),
+                    ),
+                    // color: Colors.grey[300],
                     key: _cakeContainerKey,
-                    width: 500,
-                    height: 500,
+                    width: 369,
+                    height: 321,
                     child: Stack(
+                      alignment: Alignment.center,
                       children: [
-                        Image.asset('assets/cake.png', width: 500, height: 500),
+                        Image.asset('assets/cake.png', width: 333, height: 333),
                         for (final decoration in _decorationItems)
                           AnimatedBuilder(
                             animation: _fallAnimation,
